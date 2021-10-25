@@ -1,0 +1,43 @@
+#welcome{
+    position:absolute;
+    overflow:hidden;
+    height:800px;
+color:darkcyan;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    opacity:0.83;
+    background:linear-gradient(#fa625c 30%,#f7ee40 70%);
+    display:table;
+    height:100%;
+        width:100%;
+}
+body{
+    text-align: center;
+    margin:0;
+padding-top:800px;
+}
+.profile{
+    width:175px;
+    margin-bottom:50px;
+    border-radius:50%;
+}
+.inner{
+    display:table-cell;
+    position: relative;
+    text-align:center;
+    vertical-align:middle;
+    
+}
+.line{
+    height:6px;
+    width:300px;
+    background-color:deepskyblue;
+    margin:8px auto;
+}
+#bio{
+    padding:50px;
+    text-align: center;
+        font-size:40px;
+}
