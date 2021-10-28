@@ -1,43 +1,95 @@
-#welcome{
-    position:absolute;
-    overflow:hidden;
-    height:800px;
-color:darkcyan;
-    left:0;
-    top:0;
-    bottom:0;
-    right:0;
-    opacity:0.83;
-    background:linear-gradient(#fa625c 30%,#f7ee40 70%);
-    display:table;
-    height:100%;
-        width:100%;
+#welcome {
+    position: absolute;
+    color: darkcyan;
+    bottom: 0;
+    background: linear-gradient(#fa625c 30%, #f7ee40 70%);
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9
 }
-body{
+
+body {
     text-align: center;
-    margin:0;
-padding-top:800px;
+    margin: 0;
+    padding-top: 800px;
 }
-.profile{
-    width:175px;
-    margin-bottom:50px;
-    border-radius:50%;
+
+.profile {
+    border-radius: 50%;
 }
-.inner{
-    display:table-cell;
+
+.inner {
+    display: table-cell;
     position: relative;
-    text-align:center;
-    vertical-align:middle;
-    
-}
-.line{
-    height:6px;
-    width:300px;
-    background-color:deepskyblue;
-    margin:8px auto;
-}
-#bio{
-    padding:50px;
     text-align: center;
-        font-size:40px;
+    vertical-align: middle;
+
+}
+
+.line {
+    height: 6px;
+    width: 300px;
+    background-color: deepskyblue;
+    margin: 8px auto;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+p {
+    font-size: 20px;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration:none;
+}
+.article:hover{
+color:chartreuse;
 }
